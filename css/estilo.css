@@ -1,0 +1,82 @@
+body {
+
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	background-color: #333;
+	padding: 10px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin: 0 15px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+section {
+	padding: 20px;
+	background-color: #f9f9f9;
+}
+
+article {
+	margin: 0 15px;
+	padding: 15px;
+	border: 1px solid #ccc;;
+}
+
+.cuadro {
+    width: 300px; /* Ancho del cuadro */
+    height: 150px; /* Altura del cuadro */
+    background-color: #e0e0e0; /* Color de fondo del cuadro */
+    border: 2px solid #333; /* Borde del cuadro */
+    display: flex; /* Usar flexbox para centrar el texto */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    margin: 0 auto; /* Centrar el cuadro en la página */
+}
+
+
+.container {
+    display: flex; /* Usar flexbox para alinear el contenido */
+}
+
+aside {
+    width: 250px; /* Ancho del sidebar */
+    background-color: #333; /* Color de fondo del sidebar */
+    color: white; /* Color del texto */
+    padding: 15px; /* Espacio interno */
+}
+
+.contenido {
+    flex: 1; /* Toma el resto del espacio disponible */
+    padding: 15px; /* Espacio interno */
+    background-color: #f9f9f9; /* Color de fondo del contenido */
+}
+
+footer {
+	padding: 10px;
+	border: 0;
+	color: white;
+	display: flex;
+	margin: 20px;
+	border: none;
+	background-color: #333;
+}
